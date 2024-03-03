@@ -4,7 +4,7 @@ library(mvtnorm)
 library(FastGGM)
 source("FDRGGM_function.r")
 ##load simulated data of three subgroups
-load("/restricted/projectnb/aging-p/jiachenc/GGM/simulations/git/simdata.rda")
+load("simdata.rda")
 ##this example have three subgroups, with 500 variables, and sample size to be 300/300/300
 #standardize data
 alpha=0.05
